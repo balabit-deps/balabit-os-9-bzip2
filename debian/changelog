@@ -1,3 +1,12 @@
+bzip2 (1.0.8-5ubuntu0.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: out-of-bounds write
+    - debian/patches/CVE-2026-42250.patch: bzip2recover: Make sure to not
+      process more than BZ_MAX_HANDLED_BLOCKS in bzip2recover.c.
+    - CVE-2026-42250
+
+ -- Shishir Subedi <shishir.subedi@canonical.com>  Thu, 27 Aug 2026 09:51:50 +0545
+
 bzip2 (1.0.8-5build1) jammy; urgency=medium
 
   * No-change rebuild for ppc64el baseline bump.

@@ -1,5 +1,6 @@
 Source: bzip2
-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Uploaders: Santiago Ruano Rincón <santiago@debian.org>,
            Anthony Fok <foka@debian.org>
 Section: utils
